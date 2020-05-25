@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="onlineStore.war">
+    <root id="archive" name="MapMaker.war">
       <element id="artifact" artifact-name="mapmaker:war exploded" />
     </root>
   </artifact>

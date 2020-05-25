@@ -57,6 +57,7 @@
 
 
 		<!-- Dependency added for Tomcat 8.5 (Servlet 3.1 API) -->
+		<!-- TODO add additional libraries for JSON encoding -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
@@ -88,7 +89,5 @@
 			<artifactId>jaxb-runtime</artifactId>
 			<version>2.3.2</version>
 		</dependency>
-
-		<!-- Google Gson plugin -->
 	</dependencies>
 </project>
