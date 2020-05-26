@@ -6,11 +6,11 @@ import di20.team06.model.Map;
  * DAO for handling maps
  * TODO: Needs implementation
  */
-public class MapDAO implements IDAO<Map> {
+public class DummyMapDAO implements IDAO<Map> {
 
-    public static MapDAO INSTANCE = new MapDAO();
+    public static DummyMapDAO INSTANCE = new DummyMapDAO();
 
-    private MapDAO() {}
+    private DummyMapDAO() {}
 
     /**
      * Adds an element to the underlying data source
