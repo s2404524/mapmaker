@@ -1,7 +1,13 @@
 package di20.team06.restServlets;
 
+import di20.team06.dao.DummyMapDAO;
+import di20.team06.model.Map;
+
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 @Path("/maps")
 public class MapSearch {
@@ -13,12 +19,19 @@ public class MapSearch {
      *                   If empty, all maps will be returned
      * @return All maps related to the given activities
      */
-    @Path("/search")
-    @GET @Produces(MediaType.APPLICATION_JSON)
-    public String getMaps(
-            @QueryParam("a") String activities
-    ) {
-        //TODO get maps from the DAO
-        return "";
+    @GET @Path("/search")
+    @Produces(MediaType.APPLICATION_JSON)
+    public List<Map> getMaps(String activities) {
+
+        List<String> actList;
+
+        if (activities == null || activities.isBlank()) {
+            actList = new ArrayList<>();
+        } else {
+            //Split on semicolons not preceded by a backslash (double-escaped for regex)
+            actList = Arrays.asList(activities.split(";(?<!\\\\)"));
+        }
+
+        return DummyMapDAO.INSTANCE.getMaps(actList);
     }
 }
