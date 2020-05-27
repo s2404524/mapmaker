@@ -1,0 +1,2162 @@
+.mediaViewInfo {
+	--web-view-name: Edit Activity;
+	--web-view-id: Edit_Activity;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Edit_Activity;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Edit_Activity {
+	position: absolute;
+	transform: translateX(-50%) translateY(-50%);
+	left: 50%;
+	top: 50%;
+	width: 1600px;
+	height: 1200px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Edit Activity;
+	--web-view-id: Edit_Activity;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-center-vertically: true;
+	--web-enable-deep-linking: true;
+}
+.Base {
+	filter: drop-shadow(0px 4px 0px rgba(37, 38, 94, 0.051));
+	overflow: visible;
+	position: absolute;
+	width: 1600px;
+	height: 1004px;
+	left: 0px;
+	top: 136px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Rectangle_1258 {
+	position: absolute;
+	overflow: visible;
+	width: 50px;
+	height: 4px;
+	left: 121px;
+	top: 1039px;
+}
+#Group_2449 {
+	opacity: 0;
+	position: absolute;
+	width: 961px;
+	height: 552px;
+	left: 365px;
+	top: 1176px;
+	overflow: visible;
+}
+#Group_2431 {
+	position: absolute;
+	width: 134px;
+	height: 45px;
+	left: 826px;
+	top: 4px;
+	overflow: visible;
+}
+#Group_22 {
+	position: absolute;
+	width: 134px;
+	height: 45px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_323 {
+	position: absolute;
+	width: 134px;
+	height: 45px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle {
+	opacity: 0.4;
+	filter: blur(10px);
+}
+.Rectangle {
+	position: absolute;
+	overflow: visible;
+	width: 186px;
+	height: 85px;
+	left: 3px;
+	top: 20px;
+}
+.Rectangle_n {
+	position: absolute;
+	overflow: visible;
+	width: 134px;
+	height: 42px;
+	left: 0px;
+	top: 0px;
+}
+#Group_2447 {
+	position: absolute;
+	width: 961px;
+	height: 552px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_2441 {
+	position: absolute;
+	width: 307px;
+	height: 552px;
+	left: 327px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1278 {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 552px;
+	left: 0px;
+	top: 0px;
+}
+.ID462430_baseball_San_Francisc {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 153px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1267 {
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	height: 39px;
+	left: 20px;
+	top: 493px;
+}
+#Group_2424 {
+	position: absolute;
+	width: 202px;
+	height: 27px;
+	left: 77px;
+	top: 499px;
+	overflow: visible;
+}
+.Rectangle_1275_ {
+	position: absolute;
+	overflow: visible;
+	width: 202px;
+	height: 9px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1268_ {
+	position: absolute;
+	overflow: visible;
+	width: 121px;
+	height: 9px;
+	left: 0px;
+	top: 18px;
+}
+.Rectangle_1269_ {
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	height: 9px;
+	left: 129px;
+	top: 18px;
+}
+#Group_2437 {
+	position: absolute;
+	width: 73.143px;
+	height: 67.049px;
+	left: 116.569px;
+	top: 169.476px;
+	overflow: visible;
+}
+.Path_856_ba {
+	overflow: visible;
+	position: absolute;
+	width: 63.289px;
+	height: 45.923px;
+	left: 0px;
+	top: 21.127px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_857_bb {
+	overflow: visible;
+	position: absolute;
+	width: 12.191px;
+	height: 12.191px;
+	left: 21.332px;
+	top: 9.144px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_858_bc {
+	overflow: visible;
+	position: absolute;
+	width: 60.954px;
+	height: 48.764px;
+	left: 12.188px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_2445 {
+	position: absolute;
+	width: 307px;
+	height: 552px;
+	left: 327px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1278_ {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 552px;
+	left: 0px;
+	top: 0px;
+}
+.ID462430_baseball_San_Francisc_ {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 153px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1267_ {
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	height: 39px;
+	left: 20px;
+	top: 493px;
+}
+#Group_2424_ {
+	position: absolute;
+	width: 202px;
+	height: 27px;
+	left: 77px;
+	top: 499px;
+	overflow: visible;
+}
+.Rectangle_1275_ {
+	position: absolute;
+	overflow: visible;
+	width: 202px;
+	height: 9px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1268_ {
+	position: absolute;
+	overflow: visible;
+	width: 121px;
+	height: 9px;
+	left: 0px;
+	top: 18px;
+}
+.Rectangle_1269_ {
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	height: 9px;
+	left: 129px;
+	top: 18px;
+}
+#Group_2437_ {
+	position: absolute;
+	width: 73.143px;
+	height: 67.049px;
+	left: 116.569px;
+	top: 169.476px;
+	overflow: visible;
+}
+.Path_856_ba {
+	overflow: visible;
+	position: absolute;
+	width: 63.289px;
+	height: 45.923px;
+	left: 0px;
+	top: 21.127px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_857_bb {
+	overflow: visible;
+	position: absolute;
+	width: 12.191px;
+	height: 12.191px;
+	left: 21.332px;
+	top: 9.144px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_858_bc {
+	overflow: visible;
+	position: absolute;
+	width: 60.954px;
+	height: 48.764px;
+	left: 12.188px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_2442 {
+	position: absolute;
+	width: 307px;
+	height: 552px;
+	left: 654px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1278_be {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 552px;
+	left: 0px;
+	top: 0px;
+}
+.ID462430_baseball_San_Francisc_bf {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 153px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1267_bg {
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	height: 39px;
+	left: 20px;
+	top: 493px;
+}
+#Group_2424_bh {
+	position: absolute;
+	width: 202px;
+	height: 27px;
+	left: 77px;
+	top: 499px;
+	overflow: visible;
+}
+.Rectangle_1275_bu {
+	position: absolute;
+	overflow: visible;
+	width: 202px;
+	height: 9px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1268_bv {
+	position: absolute;
+	overflow: visible;
+	width: 121px;
+	height: 9px;
+	left: 0px;
+	top: 18px;
+}
+.Rectangle_1269_bw {
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	height: 9px;
+	left: 129px;
+	top: 18px;
+}
+#Group_2437_bl {
+	position: absolute;
+	width: 73.143px;
+	height: 67.049px;
+	left: 116.569px;
+	top: 169.476px;
+	overflow: visible;
+}
+.Path_856_by {
+	overflow: visible;
+	position: absolute;
+	width: 63.289px;
+	height: 45.923px;
+	left: 0px;
+	top: 21.127px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_857_bz {
+	overflow: visible;
+	position: absolute;
+	width: 12.191px;
+	height: 12.191px;
+	left: 21.332px;
+	top: 9.144px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_858_b {
+	overflow: visible;
+	position: absolute;
+	width: 60.954px;
+	height: 48.764px;
+	left: 12.188px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_2446 {
+	position: absolute;
+	width: 307px;
+	height: 552px;
+	left: 654px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1278_bq {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 552px;
+	left: 0px;
+	top: 0px;
+}
+.ID462430_baseball_San_Francisc_br {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 153px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1267_bs {
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	height: 39px;
+	left: 20px;
+	top: 493px;
+}
+#Group_2424_bt {
+	position: absolute;
+	width: 202px;
+	height: 27px;
+	left: 77px;
+	top: 499px;
+	overflow: visible;
+}
+.Rectangle_1275_bu {
+	position: absolute;
+	overflow: visible;
+	width: 202px;
+	height: 9px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1268_bv {
+	position: absolute;
+	overflow: visible;
+	width: 121px;
+	height: 9px;
+	left: 0px;
+	top: 18px;
+}
+.Rectangle_1269_bw {
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	height: 9px;
+	left: 129px;
+	top: 18px;
+}
+#Group_2437_bx {
+	position: absolute;
+	width: 73.143px;
+	height: 67.049px;
+	left: 116.569px;
+	top: 169.476px;
+	overflow: visible;
+}
+.Path_856_by {
+	overflow: visible;
+	position: absolute;
+	width: 63.289px;
+	height: 45.923px;
+	left: 0px;
+	top: 21.127px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_857_bz {
+	overflow: visible;
+	position: absolute;
+	width: 12.191px;
+	height: 12.191px;
+	left: 21.332px;
+	top: 9.144px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_858_b {
+	overflow: visible;
+	position: absolute;
+	width: 60.954px;
+	height: 48.764px;
+	left: 12.188px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_2443 {
+	position: absolute;
+	width: 307px;
+	height: 552px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1278_b {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 552px;
+	left: 0px;
+	top: 0px;
+}
+.ID462430_baseball_San_Francisc_b {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 153px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1267_b {
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	height: 39px;
+	left: 20px;
+	top: 493px;
+}
+#Group_2424_b {
+	position: absolute;
+	width: 202px;
+	height: 27px;
+	left: 77px;
+	top: 499px;
+	overflow: visible;
+}
+.Rectangle_1275_ci {
+	position: absolute;
+	overflow: visible;
+	width: 202px;
+	height: 9px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1268_cj {
+	position: absolute;
+	overflow: visible;
+	width: 121px;
+	height: 9px;
+	left: 0px;
+	top: 18px;
+}
+.Rectangle_1269_ck {
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	height: 9px;
+	left: 129px;
+	top: 18px;
+}
+#Group_2437_b {
+	position: absolute;
+	width: 73.143px;
+	height: 67.049px;
+	left: 116.569px;
+	top: 169.476px;
+	overflow: visible;
+}
+.Path_856_cm {
+	overflow: visible;
+	position: absolute;
+	width: 63.289px;
+	height: 45.923px;
+	left: 0px;
+	top: 21.127px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_857_cn {
+	overflow: visible;
+	position: absolute;
+	width: 12.191px;
+	height: 12.191px;
+	left: 21.332px;
+	top: 9.144px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_858_co {
+	overflow: visible;
+	position: absolute;
+	width: 60.954px;
+	height: 48.764px;
+	left: 12.188px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_2444 {
+	position: absolute;
+	width: 307px;
+	height: 552px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1278_ce {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 552px;
+	left: 0px;
+	top: 0px;
+}
+.ID462430_baseball_San_Francisc_cf {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 153px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1267_cg {
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	height: 39px;
+	left: 20px;
+	top: 493px;
+}
+#Group_2424_ch {
+	position: absolute;
+	width: 202px;
+	height: 27px;
+	left: 77px;
+	top: 499px;
+	overflow: visible;
+}
+.Rectangle_1275_ci {
+	position: absolute;
+	overflow: visible;
+	width: 202px;
+	height: 9px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1268_cj {
+	position: absolute;
+	overflow: visible;
+	width: 121px;
+	height: 9px;
+	left: 0px;
+	top: 18px;
+}
+.Rectangle_1269_ck {
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	height: 9px;
+	left: 129px;
+	top: 18px;
+}
+#Group_2437_cl {
+	position: absolute;
+	width: 73.143px;
+	height: 67.049px;
+	left: 116.569px;
+	top: 169.476px;
+	overflow: visible;
+}
+.Path_856_cm {
+	overflow: visible;
+	position: absolute;
+	width: 63.289px;
+	height: 45.923px;
+	left: 0px;
+	top: 21.127px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_857_cn {
+	overflow: visible;
+	position: absolute;
+	width: 12.191px;
+	height: 12.191px;
+	left: 21.332px;
+	top: 9.144px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_858_co {
+	overflow: visible;
+	position: absolute;
+	width: 60.954px;
+	height: 48.764px;
+	left: 12.188px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Ellipse_52_cq {
+	opacity: 0.5;
+}
+.Ellipse_52_cq {
+	filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.161));
+	position: absolute;
+	overflow: visible;
+	width: 43px;
+	height: 43.5px;
+	left: 355px;
+	top: 613px;
+}
+#Group_2470 {
+	opacity: 0;
+	position: absolute;
+	width: 961px;
+	height: 552px;
+	left: 439px;
+	top: 1167px;
+	overflow: visible;
+}
+#Group_2449_cs {
+	position: absolute;
+	width: 961px;
+	height: 552px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_2431_ct {
+	position: absolute;
+	width: 134px;
+	height: 45px;
+	left: 826px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_22_cu {
+	position: absolute;
+	width: 134px;
+	height: 45px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_323_cv {
+	position: absolute;
+	width: 134px;
+	height: 45px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_cw {
+	opacity: 0.4;
+	filter: blur(10px);
+}
+.Rectangle_cw {
+	position: absolute;
+	overflow: visible;
+	width: 186px;
+	height: 85px;
+	left: 3px;
+	top: 20px;
+}
+.Rectangle_cx {
+	position: absolute;
+	overflow: visible;
+	width: 134px;
+	height: 42px;
+	left: 0px;
+	top: 0px;
+}
+#Group_2447_cy {
+	position: absolute;
+	width: 961px;
+	height: 480px;
+	left: 0px;
+	top: 72px;
+	overflow: visible;
+}
+#Group_2441_cz {
+	position: absolute;
+	width: 307px;
+	height: 230px;
+	left: 327px;
+	top: 250px;
+	overflow: visible;
+}
+.Rectangle_1278_c {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 230px;
+	left: 0px;
+	top: 0px;
+}
+.ID462430_baseball_San_Francisc_c {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 153px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1267_c {
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	height: 39px;
+	left: 20px;
+	top: 171px;
+}
+#Group_2424_c {
+	position: absolute;
+	width: 202px;
+	height: 27px;
+	left: 77px;
+	top: 177px;
+	overflow: visible;
+}
+.Rectangle_1275_c {
+	position: absolute;
+	overflow: visible;
+	width: 202px;
+	height: 9px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1268_c {
+	position: absolute;
+	overflow: visible;
+	width: 121px;
+	height: 9px;
+	left: 0px;
+	top: 18px;
+}
+.Rectangle_1269_c {
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	height: 9px;
+	left: 129px;
+	top: 18px;
+}
+#Group_2437_c {
+	position: absolute;
+	width: 73.143px;
+	height: 67.049px;
+	left: 116.569px;
+	top: 57.349px;
+	overflow: visible;
+}
+.Path_856_c {
+	overflow: visible;
+	position: absolute;
+	width: 63.289px;
+	height: 45.923px;
+	left: 0px;
+	top: 21.127px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_857_c {
+	overflow: visible;
+	position: absolute;
+	width: 12.191px;
+	height: 12.191px;
+	left: 21.332px;
+	top: 9.144px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_858_da {
+	overflow: visible;
+	position: absolute;
+	width: 60.954px;
+	height: 48.764px;
+	left: 12.188px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_2445_db {
+	position: absolute;
+	width: 307px;
+	height: 230px;
+	left: 327px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1278_dc {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 230px;
+	left: 0px;
+	top: 0px;
+}
+.ID462430_baseball_San_Francisc_dd {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 153px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1267_de {
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	height: 39px;
+	left: 20px;
+	top: 171px;
+}
+#Group_2424_df {
+	position: absolute;
+	width: 202px;
+	height: 27px;
+	left: 77px;
+	top: 177px;
+	overflow: visible;
+}
+.Rectangle_1275_dg {
+	position: absolute;
+	overflow: visible;
+	width: 202px;
+	height: 9px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1268_dh {
+	position: absolute;
+	overflow: visible;
+	width: 121px;
+	height: 9px;
+	left: 0px;
+	top: 18px;
+}
+.Rectangle_1269_di {
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	height: 9px;
+	left: 129px;
+	top: 18px;
+}
+#Group_2437_dj {
+	position: absolute;
+	width: 73.143px;
+	height: 67.049px;
+	left: 116.569px;
+	top: 57.349px;
+	overflow: visible;
+}
+.Path_856_dk {
+	overflow: visible;
+	position: absolute;
+	width: 63.289px;
+	height: 45.923px;
+	left: 0px;
+	top: 21.127px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_857_dl {
+	overflow: visible;
+	position: absolute;
+	width: 12.191px;
+	height: 12.191px;
+	left: 21.332px;
+	top: 9.144px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_858_dm {
+	overflow: visible;
+	position: absolute;
+	width: 60.954px;
+	height: 48.764px;
+	left: 12.188px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_2442_dn {
+	position: absolute;
+	width: 307px;
+	height: 230px;
+	left: 654px;
+	top: 250px;
+	overflow: visible;
+}
+.Rectangle_1278_do {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 230px;
+	left: 0px;
+	top: 0px;
+}
+.ID462430_baseball_San_Francisc_dp {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 153px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1267_dq {
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	height: 39px;
+	left: 20px;
+	top: 171px;
+}
+#Group_2424_dr {
+	position: absolute;
+	width: 202px;
+	height: 27px;
+	left: 77px;
+	top: 177px;
+	overflow: visible;
+}
+.Rectangle_1275_ds {
+	position: absolute;
+	overflow: visible;
+	width: 202px;
+	height: 9px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1268_dt {
+	position: absolute;
+	overflow: visible;
+	width: 121px;
+	height: 9px;
+	left: 0px;
+	top: 18px;
+}
+.Rectangle_1269_du {
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	height: 9px;
+	left: 129px;
+	top: 18px;
+}
+#Group_2437_dv {
+	position: absolute;
+	width: 73.143px;
+	height: 67.049px;
+	left: 116.569px;
+	top: 57.349px;
+	overflow: visible;
+}
+.Path_856_dw {
+	overflow: visible;
+	position: absolute;
+	width: 63.289px;
+	height: 45.923px;
+	left: 0px;
+	top: 21.127px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_857_dx {
+	overflow: visible;
+	position: absolute;
+	width: 12.191px;
+	height: 12.191px;
+	left: 21.332px;
+	top: 9.144px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_858_dy {
+	overflow: visible;
+	position: absolute;
+	width: 60.954px;
+	height: 48.764px;
+	left: 12.188px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_2446_dz {
+	position: absolute;
+	width: 307px;
+	height: 230px;
+	left: 654px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1278_d {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 230px;
+	left: 0px;
+	top: 0px;
+}
+.ID462430_baseball_San_Francisc_d {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 153px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1267_d {
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	height: 39px;
+	left: 20px;
+	top: 171px;
+}
+#Group_2424_d {
+	position: absolute;
+	width: 202px;
+	height: 27px;
+	left: 77px;
+	top: 177px;
+	overflow: visible;
+}
+.Rectangle_1275_d {
+	position: absolute;
+	overflow: visible;
+	width: 202px;
+	height: 9px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1268_d {
+	position: absolute;
+	overflow: visible;
+	width: 121px;
+	height: 9px;
+	left: 0px;
+	top: 18px;
+}
+.Rectangle_1269_d {
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	height: 9px;
+	left: 129px;
+	top: 18px;
+}
+#Group_2437_d {
+	position: absolute;
+	width: 73.143px;
+	height: 67.049px;
+	left: 116.569px;
+	top: 57.349px;
+	overflow: visible;
+}
+.Path_856_d {
+	overflow: visible;
+	position: absolute;
+	width: 63.289px;
+	height: 45.923px;
+	left: 0px;
+	top: 21.127px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_857_d {
+	overflow: visible;
+	position: absolute;
+	width: 12.191px;
+	height: 12.191px;
+	left: 21.332px;
+	top: 9.144px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_858_ea {
+	overflow: visible;
+	position: absolute;
+	width: 60.954px;
+	height: 48.764px;
+	left: 12.188px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_2443_eb {
+	position: absolute;
+	width: 307px;
+	height: 230px;
+	left: 0px;
+	top: 250px;
+	overflow: visible;
+}
+.Rectangle_1278_ec {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 230px;
+	left: 0px;
+	top: 0px;
+}
+.ID462430_baseball_San_Francisc_ed {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 153px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1267_ee {
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	height: 39px;
+	left: 20px;
+	top: 171px;
+}
+#Group_2424_ef {
+	position: absolute;
+	width: 202px;
+	height: 27px;
+	left: 77px;
+	top: 177px;
+	overflow: visible;
+}
+.Rectangle_1275_eg {
+	position: absolute;
+	overflow: visible;
+	width: 202px;
+	height: 9px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1268_eh {
+	position: absolute;
+	overflow: visible;
+	width: 121px;
+	height: 9px;
+	left: 0px;
+	top: 18px;
+}
+.Rectangle_1269_ei {
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	height: 9px;
+	left: 129px;
+	top: 18px;
+}
+#Group_2437_ej {
+	position: absolute;
+	width: 73.143px;
+	height: 67.049px;
+	left: 116.569px;
+	top: 57.349px;
+	overflow: visible;
+}
+.Path_856_ek {
+	overflow: visible;
+	position: absolute;
+	width: 63.289px;
+	height: 45.923px;
+	left: 0px;
+	top: 21.127px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_857_el {
+	overflow: visible;
+	position: absolute;
+	width: 12.191px;
+	height: 12.191px;
+	left: 21.332px;
+	top: 9.144px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_858_em {
+	overflow: visible;
+	position: absolute;
+	width: 60.954px;
+	height: 48.764px;
+	left: 12.188px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Group_2444_en {
+	position: absolute;
+	width: 307px;
+	height: 230px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1278_eo {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 230px;
+	left: 0px;
+	top: 0px;
+}
+.ID462430_baseball_San_Francisc_ep {
+	position: absolute;
+	overflow: visible;
+	width: 307px;
+	height: 153px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1267_eq {
+	position: absolute;
+	overflow: visible;
+	width: 39px;
+	height: 39px;
+	left: 20px;
+	top: 171px;
+}
+#Group_2424_er {
+	position: absolute;
+	width: 202px;
+	height: 27px;
+	left: 77px;
+	top: 177px;
+	overflow: visible;
+}
+.Rectangle_1275_es {
+	position: absolute;
+	overflow: visible;
+	width: 202px;
+	height: 9px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_1268_et {
+	position: absolute;
+	overflow: visible;
+	width: 121px;
+	height: 9px;
+	left: 0px;
+	top: 18px;
+}
+.Rectangle_1269_eu {
+	position: absolute;
+	overflow: visible;
+	width: 63px;
+	height: 9px;
+	left: 129px;
+	top: 18px;
+}
+#Group_2437_ev {
+	position: absolute;
+	width: 73.143px;
+	height: 67.049px;
+	left: 116.569px;
+	top: 57.349px;
+	overflow: visible;
+}
+.Path_856_ew {
+	overflow: visible;
+	position: absolute;
+	width: 63.289px;
+	height: 45.923px;
+	left: 0px;
+	top: 21.127px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_857_ex {
+	overflow: visible;
+	position: absolute;
+	width: 12.191px;
+	height: 12.191px;
+	left: 21.332px;
+	top: 9.144px;
+	transform: matrix(1,0,0,1,0,0);
+}
+.Path_858_ey {
+	overflow: visible;
+	position: absolute;
+	width: 60.954px;
+	height: 48.764px;
+	left: 12.188px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Image_6 {
+	position: absolute;
+	width: 1403px;
+	height: 859px;
+	left: 37px;
+	top: 261px;
+	overflow: visible;
+}
+#Group_2470_e {
+	position: absolute;
+	width: 116px;
+	height: 44px;
+	left: 1324px;
+	top: 200px;
+	overflow: visible;
+}
+#Component_6___2 {
+	position: absolute;
+	width: 116px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_2449_e {
+	position: absolute;
+	width: 116px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_2431_e {
+	position: absolute;
+	width: 116px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_22_e {
+	position: absolute;
+	width: 116px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_323_e {
+	position: absolute;
+	width: 116px;
+	height: 44px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_e {
+	opacity: 0.4;
+	filter: blur(10px);
+}
+.Rectangle_e {
+	position: absolute;
+	overflow: visible;
+	width: 168px;
+	height: 85px;
+	left: 3px;
+	top: 19px;
+}
+.Rectangle_fa {
+	position: absolute;
+	overflow: visible;
+	width: 116px;
+	height: 41px;
+	left: 0px;
+	top: 0px;
+}
+#Export_map {
+	position: absolute;
+	left: 12px;
+	top: 11px;
+	overflow: visible;
+	width: 94px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(54,54,57,1);
+}
+#Repeat_Grid_2 {
+	position: absolute;
+	width: 72px;
+	height: 872.5px;
+	left: 1472px;
+	top: 263.5px;
+	overflow: hidden;
+}
+#Repeat_Grid_2_0 {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0.5px;
+	top: 0.5px;
+	overflow: visible;
+}
+#Component_3___1 {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Component_2___1 {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Image_5 {
+	position: absolute;
+	width: 68px;
+	height: 64.762px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1335 {
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	height: 20px;
+	left: 2px;
+	top: 65px;
+}
+#ID50 {
+	position: absolute;
+	left: 6px;
+	top: 64px;
+	overflow: visible;
+	width: 58px;
+	height: 19px;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(54,54,57,1);
+}
+#Repeat_Grid_2_1 {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0.5px;
+	top: 101.5px;
+	overflow: visible;
+}
+#Component_3___2 {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Component_2___1_fi {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Image_5_fj {
+	position: absolute;
+	width: 68px;
+	height: 64.762px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1335_fk {
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	height: 20px;
+	left: 2px;
+	top: 65px;
+}
+#ID50_fl {
+	position: absolute;
+	left: 6px;
+	top: 64px;
+	overflow: visible;
+	width: 58px;
+	height: 19px;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(54,54,57,1);
+}
+#Repeat_Grid_2_2 {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0.5px;
+	top: 202.5px;
+	overflow: visible;
+}
+#Component_3___3 {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Component_2___1_fo {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Image_5_fp {
+	position: absolute;
+	width: 68px;
+	height: 64.762px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1335_fq {
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	height: 20px;
+	left: 2px;
+	top: 65px;
+}
+#ID50_fr {
+	position: absolute;
+	left: 6px;
+	top: 64px;
+	overflow: visible;
+	width: 58px;
+	height: 19px;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(54,54,57,1);
+}
+#Repeat_Grid_2_3 {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0.5px;
+	top: 303.5px;
+	overflow: visible;
+}
+#Component_3___4 {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Component_2___1_fu {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Image_5_fv {
+	position: absolute;
+	width: 68px;
+	height: 64.762px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1335_fw {
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	height: 20px;
+	left: 2px;
+	top: 65px;
+}
+#ID50_fx {
+	position: absolute;
+	left: 6px;
+	top: 64px;
+	overflow: visible;
+	width: 58px;
+	height: 19px;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(54,54,57,1);
+}
+#Repeat_Grid_2_4 {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0.5px;
+	top: 404.5px;
+	overflow: visible;
+}
+#Component_3___5 {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Component_2___1_f {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Image_5_f {
+	position: absolute;
+	width: 68px;
+	height: 64.762px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1335_f {
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	height: 20px;
+	left: 2px;
+	top: 65px;
+}
+#ID50_f {
+	position: absolute;
+	left: 6px;
+	top: 64px;
+	overflow: visible;
+	width: 58px;
+	height: 19px;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(54,54,57,1);
+}
+#Repeat_Grid_2_5 {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0.5px;
+	top: 505.5px;
+	overflow: visible;
+}
+#Component_3___6 {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Component_2___1_ga {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Image_5_ga {
+	position: absolute;
+	width: 68px;
+	height: 64.762px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1335_ga {
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	height: 20px;
+	left: 2px;
+	top: 65px;
+}
+#ID50_ga {
+	position: absolute;
+	left: 6px;
+	top: 64px;
+	overflow: visible;
+	width: 58px;
+	height: 19px;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(54,54,57,1);
+}
+#Repeat_Grid_2_6 {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0.5px;
+	top: 606.5px;
+	overflow: visible;
+}
+#Component_3___7 {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Component_2___1_gc {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Image_5_gd {
+	position: absolute;
+	width: 68px;
+	height: 64.762px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1335_ge {
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	height: 20px;
+	left: 2px;
+	top: 65px;
+}
+#ID50_gf {
+	position: absolute;
+	left: 6px;
+	top: 64px;
+	overflow: visible;
+	width: 58px;
+	height: 19px;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(54,54,57,1);
+}
+#Repeat_Grid_2_7 {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0.5px;
+	top: 707.5px;
+	overflow: visible;
+}
+#Component_3___8 {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Component_2___1_gi {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Image_5_gj {
+	position: absolute;
+	width: 68px;
+	height: 64.762px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1335_gk {
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	height: 20px;
+	left: 2px;
+	top: 65px;
+}
+#ID50_gl {
+	position: absolute;
+	left: 6px;
+	top: 64px;
+	overflow: visible;
+	width: 58px;
+	height: 19px;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(54,54,57,1);
+}
+#Repeat_Grid_2_8 {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0.5px;
+	top: 808.5px;
+	overflow: visible;
+}
+#Component_3___9 {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Component_2___1_go {
+	position: absolute;
+	width: 68px;
+	height: 85px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Image_5_gp {
+	position: absolute;
+	width: 68px;
+	height: 64.762px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+.Rectangle_1335_gq {
+	position: absolute;
+	overflow: visible;
+	width: 64px;
+	height: 20px;
+	left: 2px;
+	top: 65px;
+}
+#ID50_gr {
+	position: absolute;
+	left: 6px;
+	top: 64px;
+	overflow: visible;
+	width: 58px;
+	height: 19px;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 13px;
+	color: rgba(54,54,57,1);
+}
+#Group_2472 {
+	position: absolute;
+	width: 131.812px;
+	height: 53px;
+	left: 1460.651px;
+	top: 191.908px;
+	overflow: visible;
+}
+#Component_5___1 {
+	position: absolute;
+	width: 131.812px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_2478 {
+	position: absolute;
+	width: 131.812px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_2449_gv {
+	position: absolute;
+	width: 131.812px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_2431_gw {
+	position: absolute;
+	width: 131.812px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_22_gx {
+	position: absolute;
+	width: 131.812px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_323_gy {
+	position: absolute;
+	width: 131.812px;
+	height: 53px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_gz {
+	opacity: 0.4;
+	filter: blur(10px);
+}
+.Rectangle_gz {
+	position: absolute;
+	overflow: visible;
+	width: 183.812px;
+	height: 85px;
+	left: 3px;
+	top: 28px;
+}
+.Rectangle_g {
+	position: absolute;
+	overflow: visible;
+	width: 131.812px;
+	height: 50px;
+	left: 0px;
+	top: 0px;
+}
+#Export__materials_list {
+	position: absolute;
+	left: 14.849px;
+	top: 2.656px;
+	overflow: visible;
+	width: 107px;
+	white-space: nowrap;
+	text-align: center;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(54,54,57,1);
+}
+#Image_3 {
+	position: absolute;
+	width: 104px;
+	height: 48px;
+	left: 0px;
+	top: 64px;
+	overflow: visible;
+}
+#Activity_Name_ {
+	position: absolute;
+	left: 64px;
+	top: 160px;
+	overflow: visible;
+	width: 506px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 68px;
+	color: rgba(86,106,117,1);
+}
+#Component_4___7 {
+	position: absolute;
+	width: 96px;
+	height: 24px;
+	left: 1474px;
+	top: 88px;
+	overflow: visible;
+}
+.Rectangle_1336 {
+	position: absolute;
+	overflow: visible;
+	width: 96px;
+	height: 24px;
+	left: 0px;
+	top: 0px;
+}
+#s2404524 {
+	position: absolute;
+	left: 3px;
+	top: 0px;
+	overflow: visible;
+	width: 80px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	color: rgba(54,54,57,1);
+}
+#Component_11___1 {
+	position: absolute;
+	width: 1600px;
+	height: 72px;
+	left: 0px;
+	top: 64px;
+	overflow: visible;
+}
+.Base_g {
+	filter: drop-shadow(0px 12px 0px rgba(66, 171, 51, 1));
+	position: absolute;
+	overflow: visible;
+	width: 1600px;
+	height: 84px;
+	left: 0px;
+	top: 0px;
+}
+#Edit_Activity_g {
+	position: absolute;
+	left: 209px;
+	top: 23px;
+	overflow: visible;
+	width: 108px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
+.Rectangle_1339 {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 873px;
+	left: 1568px;
+	top: 263px;
+}
+.Rectangle_1340 {
+	position: absolute;
+	overflow: visible;
+	width: 24px;
+	height: 427px;
+	left: 1568px;
+	top: 262px;
+}
+#imageedit_15_2510370249 {
+	position: absolute;
+	width: 146px;
+	height: 67px;
+	left: 7px;
+	top: 67px;
+	overflow: visible;
+}
