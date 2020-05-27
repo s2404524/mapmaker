@@ -2,7 +2,10 @@ package di20.team06.dao;
 
 import di20.team06.model.Map;
 
+import java.sql.Date;
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -16,7 +19,25 @@ public class DummyMapDAO implements IDAO<Map> {
     public static DummyMapDAO INSTANCE = new DummyMapDAO();
 
     private DummyMapDAO() {
+        maps.add(new Map(
+                "testMap1",
+                "Test Map 1",
+                "This is a dummy map, used to test the application",
+                "{}",
+                new Date(System.currentTimeMillis()),
+                "The devs",
+                Arrays.asList("test", "one")
+        ));
 
+        maps.add(new Map(
+                "testMap2",
+                "Test Map 2",
+                "This is a dummy map, used to test the application",
+                "{}",
+                new Date(System.currentTimeMillis() - 60_000),
+                "The devs",
+                Arrays.asList("test", "two")
+        ));
     }
 
     /**
@@ -44,8 +65,12 @@ public class DummyMapDAO implements IDAO<Map> {
     }
 
     public List<Map> getMaps(List<String> activities) {
+        if (activities.isEmpty())
+            return new ArrayList<>(maps);
+
         return maps.stream()
-                .filter(m -> activities.containsAll(m.getRelatedActivities()))
+                .filter(map -> map.getRelatedActivities().stream()
+                        .anyMatch(activities::contains))
                 .collect(Collectors.toList());
     }
 

@@ -10,10 +10,10 @@
 <body>
 <h1>Temporary Search Page</h1>
 <div id="searchbar" class="centered">
-    <form id="searchForm">
+    <form id="searchForm"> <script>$('#searchForm').submit(submitSearch)</script>
         <label for="activities">Related Activities</label>
-        <input id="activities" name="activities" type="text">
-        <input type="button" value="Search" onclick="submitSearch()"/>
+        <input id="activities" name="a" type="text">
+        <input type="submit" value="Search"/>
     </form>
 </div>
 <div id="results"></div>

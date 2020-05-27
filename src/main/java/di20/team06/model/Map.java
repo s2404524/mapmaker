@@ -1,6 +1,7 @@
 package di20.team06.model;
 
 import javax.xml.bind.annotation.XmlRootElement;
+import java.sql.Date;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -9,6 +10,10 @@ public class Map implements IIdentifiable {
 
     private String id;
     private String name;
+    private String description;
+    private String mapData;
+    private Date   lastEdited;
+    private String lastEditedBy;
     private List<String> relatedActivities;
 
     /**
@@ -17,10 +22,14 @@ public class Map implements IIdentifiable {
      * @param name The map's name
      * @param activities List of activities related to this map, may be null
      */
-    public Map(String name, List<String> activities) {
-        this.id = "";
+    public Map(String id, String name, String description, String mapData, Date lastEdited, String lastEditedBy, List<String> activities) {
+        this.id = id;
         this.name = name;
-        this.relatedActivities = new ArrayList<>(activities);
+        this.description = description;
+        this.mapData = mapData;
+        this.lastEdited = lastEdited;
+        this.lastEditedBy = lastEditedBy;
+        this.relatedActivities = new ArrayList<>(activities); //Store a local copy, not the actual list
     }
 
     /**
@@ -50,6 +59,38 @@ public class Map implements IIdentifiable {
 
     public List<String> getRelatedActivities() {
         return relatedActivities;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getMapData() {
+        return mapData;
+    }
+
+    public void setMapData(String mapData) {
+        this.mapData = mapData;
+    }
+
+    public Date getLastEdited() {
+        return lastEdited;
+    }
+
+    public void setLastEdited(Date lastEdited) {
+        this.lastEdited = lastEdited;
+    }
+
+    public String getLastEditedBy() {
+        return lastEditedBy;
+    }
+
+    public void setLastEditedBy(String lastEditedBy) {
+        this.lastEditedBy = lastEditedBy;
     }
 
     public void setRelatedActivities(List<String> relatedActivities) {

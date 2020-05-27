@@ -21,7 +21,7 @@ public class MapSearch {
      */
     @GET @Path("/search")
     @Produces(MediaType.APPLICATION_JSON)
-    public List<Map> getMaps(String activities) {
+    public List<Map> getMaps(@QueryParam("a") String activities) {
 
         List<String> actList;
 
@@ -29,7 +29,8 @@ public class MapSearch {
             actList = new ArrayList<>();
         } else {
             //Split on semicolons not preceded by a backslash (double-escaped for regex)
-            actList = Arrays.asList(activities.split(";(?<!\\\\)"));
+            actList = Arrays.asList(activities.split("(?<!\\\\);"));
+            actList.replaceAll(s -> s.replace("\\;", ";"));
         }
 
         return DummyMapDAO.INSTANCE.getMaps(actList);
