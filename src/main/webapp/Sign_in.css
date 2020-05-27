@@ -1,0 +1,150 @@
+.mediaViewInfo {
+	--web-view-name: Sign in;
+	--web-view-id: Sign_in;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: Sign_in;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#Sign_in {
+	position: absolute;
+	transform: translateX(-50%);
+	left: 50%;
+	width: 1600px;
+	height: 1200px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: Sign in;
+	--web-view-id: Sign_in;
+	--web-scale-on-resize: true;
+	--web-center-horizontally: true;
+	--web-application: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Image_1 {
+	position: absolute;
+	width: 1601px;
+	height: 1072px;
+	left: -1px;
+	top: 64px;
+	overflow: visible;
+}
+#Group_11 {
+	position: absolute;
+	width: 478px;
+	height: 316px;
+	left: 546px;
+	top: 325px;
+	overflow: visible;
+}
+.Rectangle_12 {
+	position: absolute;
+	overflow: visible;
+	width: 478px;
+	height: 316px;
+	left: 0px;
+	top: 0px;
+}
+.Rectangle_13 {
+	position: absolute;
+	overflow: visible;
+	width: 300px;
+	height: 52px;
+	left: 89px;
+	top: 105px;
+}
+.Rectangle_14 {
+	position: absolute;
+	overflow: visible;
+	width: 300px;
+	height: 52px;
+	left: 89px;
+	top: 173px;
+}
+.Rectangle_15 {
+	position: absolute;
+	overflow: visible;
+	width: 300px;
+	height: 52px;
+	left: 89px;
+	top: 236px;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: view;
+	--web-action-target: Artboard___4;
+	cursor: pointer;
+}
+#KICK_IN_MAP_MAKER {
+	position: absolute;
+	left: 58px;
+	top: 22px;
+	overflow: visible;
+	width: 365px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	color: rgba(37,36,39,1);
+}
+#Email_s_number {
+	position: absolute;
+	left: 106px;
+	top: 121px;
+	overflow: visible;
+	width: 112px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(165,163,163,1);
+}
+#Password {
+	position: absolute;
+	left: 106px;
+	top: 189px;
+	overflow: visible;
+	width: 68px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	color: rgba(165,163,163,1);
+}
+#Sign_In {
+	position: absolute;
+	left: 209px;
+	top: 250px;
+	overflow: visible;
+	width: 62px;
+	white-space: nowrap;
+	text-align: left;
+	font-family: Poppins;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: rgba(255,255,255,1);
+}
