@@ -39,6 +39,14 @@ body {
     font-size: 150%;
     border: 2px solid rgb(66, 171, 51);
     border-radius: 25px;
+    background: rgba(255, 255, 255, 0.5);
+}
+
+.login {
+    padding-left: 10px;
+    font-size: 150%;
+    border: 2px solid rgb(66, 171, 51);
+    border-radius: 5px;
 }
 
 #results {
@@ -80,4 +88,11 @@ body {
 .sr-name {
     font-size: 150%;
     font-weight: bold;
+}
+
+.button {
+    color: white;
+    background: rgb(66, 171, 51);
+    border-radius: 25px;
+    text-align: center;
 }
