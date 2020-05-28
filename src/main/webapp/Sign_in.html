@@ -1,44 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8"/>
-<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>sign_in</title>
-<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="Sign_in.css"/>
-<script id="applicationScript" type="text/javascript" src="Sign_in.js"></script>
+	<meta charset="utf-8"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>sign_in</title>
+	<link rel="stylesheet" type="text/css" id="applicationStylesheet" href="Sign_in.css"/>
+	<link rel="stylesheet" href="styles-base.css">
+	<script id="applicationScript" type="text/javascript" src="Sign_in.js"></script>
 </head>
 <body>
 <div id="Sign_in">
 	<img id="Image_1" src="Image_1.png" srcset="Image_1.png 1x, Image_1@2x.png 2x">
 	<div id="Group_11">
 		<svg class="Rectangle_12">
-			<rect fill="rgba(255,255,255,1)" id="Rectangle_12" rx="30" ry="30" x="0" y="0" width="478" height="316">
-			</rect>
-		</svg>
-		<svg class="Rectangle_13">
-			<rect fill="transparent" stroke="rgba(58,175,74,1)" stroke-width="2px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_13" rx="10" ry="10" x="0" y="0" width="300" height="52">
-			</rect>
-		</svg>
-		<svg class="Rectangle_14">
-			<rect fill="transparent" stroke="rgba(58,175,74,1)" stroke-width="2px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_14" rx="10" ry="10" x="0" y="0" width="300" height="52">
-			</rect>
-		</svg>
-		<svg class="Rectangle_15">
-			<rect fill="rgba(58,175,74,1)" onclick="application.goToTargetView(event)" id="Rectangle_15" rx="10" ry="10" x="0" y="0" width="300" height="52">
+			<rect fill="rgba(255,255,255,1)"
+				  id="Rectangle_12" rx="30"
+				  ry="20" x="0" y="0"
+				  width="478" height="316">
 			</rect>
 		</svg>
 		<div id="KICK_IN_MAP_MAKER">
 			<span>KICK-IN MAP MAKER</span>
 		</div>
 		<div id="Email_s_number">
-			<span>Email/s.number</span>
+			<input class="login" type="text" placeholder="Username"/>
 		</div>
 		<div id="Password">
-			<span>Password</span>
+			<input class="login" type="text" placeholder="Password"/>
 		</div>
-		<div id="Sign_In">
-			<span>Sign In</span>
+		<div id="Sign_In_Button">
+			<input class="button" type="button" value="Login">
 		</div>
 	</div>
 </div>

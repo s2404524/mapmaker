@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Maven Pro", Arial sans-serif;
     margin: 0;
 }
 
@@ -47,6 +47,8 @@ body {
     font-size: 150%;
     border: 2px solid rgb(66, 171, 51);
     border-radius: 5px;
+    width: 300px;
+    height: 51px;
 }
 
 #results {
@@ -93,6 +95,9 @@ body {
 .button {
     color: white;
     background: rgb(66, 171, 51);
-    border-radius: 25px;
+    border-radius: 5px;
     text-align: center;
+    width: 300px;
+    font-size: 150%;
+    padding: 10px;
 }
