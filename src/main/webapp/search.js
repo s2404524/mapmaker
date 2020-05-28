@@ -1,6 +1,6 @@
 function submitSearch() {
     //Properly format the search params
-    let input = $('#search').val().trim()
+    let input = $('.searchbar').val().trim()
         .replace(/;/, '\\;')  //Escape semicolons with a backslash
         .replace(/\s+/, ';'); //Replace whitespace with semicolons
 
@@ -17,11 +17,6 @@ function submitSearch() {
             table.empty(); //Clear any previous results
 
             for (let map of json) { //TODO fix appending stuff
-                //Check if more results can fit
-                if (!table.find(':last-child').length > 0 || table.find(':last-child:last-child').length >= 4) {
-                    table.append('<tr></tr>');
-                }
-
                 let resultDiv = $('#sr-example').clone()
 
                 let resID = `sr-${map.id}`;  //Map.id is unique, so this will be too
@@ -30,15 +25,26 @@ function submitSearch() {
                 resultDiv.find('.sr-name').text(map.name);
                 resultDiv.find('.sr-desc').text(map.description);
 
-                resultDiv.removeClass('hidden'); //Make the div visible
+                let td = createNewTD();
+                td.append(resultDiv);
 
-                let td = document.createElement('td');
-                td.appendChild(resultDiv);
-                table.find(':last-child')[0].append(td);
+                resultDiv.removeClass('hidden'); //Make the div visible
             }
         }
     };
 
     xhttp.open('GET', '/rest/maps/search?a=' + encodeURIComponent(input), true);
     xhttp.send();
+}
+
+function createNewTD() {
+    let table = $('#result-table');
+
+    if (table.children().length === 0 || table.children(':last-child').children().length >= 4) {
+        table.append('<tr></tr>');
+    }
+
+    let row = table.children(':last-child');
+
+    return row.append('<td></td>').children(':last-child');
 }

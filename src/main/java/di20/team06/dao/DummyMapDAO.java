@@ -26,7 +26,7 @@ public class DummyMapDAO implements IDAO<Map> {
                 "{}",
                 new Date(System.currentTimeMillis()),
                 "The devs",
-                Arrays.asList("test", "one")
+                Arrays.asList("test", "odd", "1")
         ));
 
         maps.add(new Map(
@@ -36,7 +36,66 @@ public class DummyMapDAO implements IDAO<Map> {
                 "{}",
                 new Date(System.currentTimeMillis() - 60_000),
                 "The devs",
-                Arrays.asList("test", "two")
+                Arrays.asList("test", "even", "2")
+        ));
+
+        maps.add(new Map(
+                "testMap3",
+                "Test Map 3",
+                "This is a dummy map, used to test the application",
+                "{}",
+                new Date(System.currentTimeMillis() - 60_000),
+                "The devs",
+                Arrays.asList("test", "odd", "3")
+        ));
+
+        maps.add(new Map(
+                "testMap4",
+                "Test Map 4",
+                "This is a dummy map, used to test the application. Also, this one tests longer amounts of text, in case brevity isn't an option. Hopefully the site handles this well!",
+                "{}",
+                new Date(System.currentTimeMillis() - 60_000),
+                "The devs",
+                Arrays.asList("test", "even", "4")
+        ));
+        maps.add(new Map(
+                "testMap5",
+                "Test Map 5",
+                "This is a dummy map, used to test the application",
+                "{}",
+                new Date(System.currentTimeMillis()),
+                "The devs",
+                Arrays.asList("test", "odd", "5")
+        ));
+
+        maps.add(new Map(
+                "testMap6",
+                "Test Map 6",
+                "This is a dummy map, used to test the application",
+                "{}",
+                new Date(System.currentTimeMillis() - 60_000),
+                "The devs",
+                Arrays.asList("test", "even", "6")
+        ));
+
+        maps.add(new Map(
+                "testMap7",
+                "Test Map 7",
+                "This is a dummy map, used to test the application",
+                "{}",
+                new Date(System.currentTimeMillis() - 60_000),
+                "The devs",
+                Arrays.asList("test", "odd", "7")
+        ));
+
+        maps.add(new Map(
+                "testMap8",
+                "Test Map 8",
+                "This is a dummy map, used to test the application. Also, this one tests longer amounts of text, in case brevity isn't an option. Hopefully the site handles this well!",
+                "{}",
+                new Date(System.currentTimeMillis() - 60_000),
+                "The devs",
+                Arrays.asList("test", "even", "8")
         ));
     }
 
