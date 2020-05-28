@@ -1,38 +1,44 @@
 function submitSearch() {
-    let rawInput = $('#activities').val();
-
-    //Properly format the activities
-    let input = rawInput.trim()
+    //Properly format the search params
+    let input = $('#search').val().trim()
         .replace(/;/, '\\;')  //Escape semicolons with a backslash
         .replace(/\s+/, ';'); //Replace whitespace with semicolons
 
     let xhttp = new XMLHttpRequest();
 
+    $('#sr-before-search').remove();
+
     xhttp.onreadystatechange = () => {
         if (xhttp.readyState === 4 && xhttp.status === 200) {
             let json = JSON.parse(xhttp.responseText);
 
-            let resultsDiv = $('#results');
-            resultsDiv.empty(); //Clear any previous results
+            let table = $('#result-table');
+            table.removeClass('hidden');
+            table.empty(); //Clear any previous results
 
-            for (let map of json) {
-                let resID = `sr-${map.id}`; //Map.id is unique, so this will be too
-                resultsDiv.append(`<div id='${resID}' class='hidden'></div>`); //Append div to place map info in, hidden by default
+            for (let map of json) { //TODO fix appending stuff
+                //Check if more results can fit
+                if (!table.find(':last-child').length > 0 || table.find(':last-child:last-child').length >= 4) {
+                    table.append('<tr></tr>');
+                }
 
-                let thisDiv = $(`#${resID}`);
+                let resultDiv = $('#sr-example').clone()
 
-                //Append map information
-                thisDiv.append(`<b>${map.name}</b>`);
-                thisDiv.append(`<p>${map.description}</p>`);
+                let resID = `sr-${map.id}`;  //Map.id is unique, so this will be too
+                resultDiv.prop('id', resID); //Set the ID
 
-                //Make the new div visible
-                thisDiv.removeClass('hidden');
+                resultDiv.find('.sr-name').text(map.name);
+                resultDiv.find('.sr-desc').text(map.description);
+
+                resultDiv.removeClass('hidden'); //Make the div visible
+
+                let td = document.createElement('td');
+                td.appendChild(resultDiv);
+                table.find(':last-child')[0].append(td);
             }
         }
     };
 
     xhttp.open('GET', '/rest/maps/search?a=' + encodeURIComponent(input), true);
     xhttp.send();
-
-    return false; //Cancel original submit
 }

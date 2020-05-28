@@ -1,7 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
 .centered {
     text-align: center;
 }
 
 .hidden {
     display: none;
+}
+
+#header {
+    width: 100%;
+    background: rgb(52, 62, 61);
+    border-bottom: 10px solid rgb(66, 171, 51);
+    color: white;
+    font-size: 200%;
+}
+
+#header #td-logo {
+    width: 250px;
+    text-align: left;
+}
+
+#header #td-title {
+    width: calc(100% - 500px);
+}
+
+#search {
+    width: calc(100% - 45px);
+    background: lightgrey;
+    padding: 10px 0 10px 45px;
+}
+
+.searchbar {
+    padding-left: 10px;
+    font-size: 150%;
+    border: 2px solid rgb(66, 171, 51);
+    border-radius: 25px;
+}
+
+#results {
+    padding: 25px;
+}
+
+#result-table {
+    width: 80%;
+    margin: auto;
+    border: 5px solid lightgrey;
+    border-radius: 25px;
+}
+
+#result-table td {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#result-table td div {
+    width: min-content;
+    margin: auto;
+}
+
+.search-result {
+    width: min-content;
+    border: 5px solid grey;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.search-result img {
+    border-bottom: 5px solid grey;
+}
+
+.search-result p {
+    margin: 5px;
+}
+
+.sr-name {
+    font-size: 150%;
+    font-weight: bold;
 }

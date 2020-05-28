@@ -8,14 +8,26 @@
     <title>Map Search</title>
 </head>
 <body>
-<h1>Temporary Search Page</h1>
-<div id="searchbar" class="centered">
-    <form id="searchForm"> <script>$('#searchForm').submit(submitSearch)</script>
-        <label for="activities">Related Activities</label>
-        <input id="activities" name="a" type="text">
-        <input type="submit" value="Search"/>
-    </form>
+<div id="header" class="centered">
+    <table style="width: 100%;"><tbody><tr>
+        <td id="td-logo"><img src="img/kick-in.png" style="margin: 0; scale: 115%;" alt="Logo"></td>
+        <td id="td-title"><b>Map Search</b></td>
+        <td style="width: 10%;"></td>
+    </tr></tbody></table>
 </div>
-<div id="results"></div>
+<div id="search">
+    <input class="searchbar" type="text" placeholder="Search..." onkeyup="if (event.keyCode === 13) submitSearch()">
+</div>
+<div id="results">
+    <div id="sr-example" class="search-result hidden">
+        <img src="img/map-preview-example.png" alt="Preview">
+        <p class="sr-name"></p>
+        <p class="sr-desc"></p>
+    </div>
+    <div id="sr-before-search" class="centered">
+        <h2>Search results will appear here</h2>
+    </div>
+    <table id="result-table" class="centered hidden"></table>
+</div>
 </body>
 </html>
