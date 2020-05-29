@@ -1,5 +1,23 @@
+.bg-dark {
+    background-color: #3baf4a !important;
+}
+
+.btn-secondary {
+    color: #000000;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.btn:hover {
+    color: #000000;
+    background-color: rgba(155,155,155,.5);
+    border-color: rgba(155,155,155,.5);
+}
+
+/*Tom's CSS*/
+
 body {
-    font-family: "Maven Pro", Arial sans-serif;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
     margin: 0;
 }
 
@@ -32,14 +50,6 @@ body {
     width: calc(100% - 45px);
     background: lightgrey;
     padding: 10px 0 10px 45px;
-}
-
-.searchbar {
-    padding-left: 10px;
-    font-size: 150%;
-    border: 2px solid rgb(66, 171, 51);
-    border-radius: 25px;
-    background: rgba(255, 255, 255, 0.5);
 }
 
 .login {
@@ -101,3 +111,5 @@ body {
     font-size: 150%;
     padding: 10px;
 }
+
+/*End Tom's CSS*/

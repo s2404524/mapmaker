@@ -1,6 +1,6 @@
 function submitSearch() {
     //Properly format the search params
-    let input = $('.searchbar').val().trim()
+    let input = $('#searchbar').val().trim()
         .replace(/;/, '\\;')  //Escape semicolons with a backslash
         .replace(/\s+/, ';'); //Replace whitespace with semicolons
 
