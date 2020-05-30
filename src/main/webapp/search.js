@@ -25,7 +25,7 @@ function submitSearch() {
                 resultDiv.find('.sr-name').text(map.name);
                 resultDiv.find('.sr-desc').text(map.description);
 
-                let td = createNewTD();
+                let td = getRow();
                 td.append(resultDiv);
 
                 resultDiv.removeClass('hidden'); //Make the div visible
@@ -37,14 +37,11 @@ function submitSearch() {
     xhttp.send();
 }
 
-function createNewTD() {
+function getRow() {
     let table = $('#result-table');
 
-    if (table.children().length === 0 || table.children(':last-child').children().length >= 4) {
-        table.append('<tr></tr>');
-    }
+    if (table.children().length === 0 || table.children(':last-child').children().length >= 3)
+        table.append('<div class="row"></div>');
 
-    let row = table.children(':last-child');
-
-    return row.append('<td></td>').children(':last-child');
+    return table.children(':last-child');
 }
