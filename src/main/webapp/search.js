@@ -18,9 +18,9 @@ function submitSearch() {
 
             for (let map of json) {
                 let resultDiv = $('#sr-example').clone()
+                resultDiv.prop('id', `sr-${map.id}`);
 
-                let resID = `sr-${map.id}`;  //Map.id is unique, so this will be too
-                resultDiv.prop('id', resID); //Set the ID
+                resultDiv.html(resultDiv.html().replace(/\(id\)/g, map.id));
 
                 resultDiv.find('.sr-name').text(map.name);
                 resultDiv.find('.sr-desc').text(map.description);

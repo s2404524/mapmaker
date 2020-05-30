@@ -81,10 +81,6 @@ body {
     margin: 0 25px 25px 25px;
 }
 
-.search-result img {
-    border-bottom: 5px solid grey;
-}
-
 .search-result p {
     margin: 5px;
 }
@@ -92,6 +88,10 @@ body {
 .sr-name {
     font-size: 150%;
     font-weight: bold;
+}
+
+.sr-thumbnail {
+    border-bottom: 5px solid grey;
 }
 
 .button {
@@ -104,4 +104,47 @@ body {
     padding: 10px;
 }
 
-/*End Tom's CSS*/
+#thumbnail-container {
+    position: relative;
+    width:  300px;
+    height: 300px;
+}
+
+#thumbnail-container button {
+    background-color: rgba(192, 192, 192, 0.5);
+    border: 2px solid rgba(169, 169, 169, 0.5);
+    border-radius: 50%;
+}
+
+#thumbnail-container .rounded-button {
+    border: none;
+    padding: 15px;
+}
+
+#thumbnail-container .top-left {
+    position: absolute;
+    top:  25%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+#thumbnail-container .top-right {
+    position: absolute;
+    top:  25%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+#thumbnail-container .bottom-left {
+    position: absolute;
+    top:  75%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+#thumbnail-container .bottom-right {
+    position: absolute;
+    top:  75%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}

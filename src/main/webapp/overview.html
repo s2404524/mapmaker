@@ -4,20 +4,19 @@
     <title>Overview</title>
     <link rel="icon"
           type="image/png"
-          href="img/home.png">
+          href="img/icon/home.png">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet"
-          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="search.js"></script>
+    <script src="hover-buttons.js"></script>
 
-    <link rel="stylesheet"
-          href="css/overview.css">
+    <link rel="stylesheet" href="css/overview.css">
 </head>
 <body>
 
@@ -44,7 +43,20 @@
 
 <div id="results">
     <div id="sr-example" class="search-result hidden">
-        <img class="sr-thumbnail" src="img/map_preview_example.png" alt="Preview">
+        <div id="thumbnail-container">
+            <img class="sr-thumbnail" src="img/map_preview_example.png"
+                 onmouseenter="onEnter(this)"
+                 onmouseleave="onLeave(this)"
+                 alt="Preview">
+            <!-- Icon made by https://www.flaticon.com/free-icon/eye_2948075 -->
+            <button id="sr-(id)-view"   class="rounded-button top-left hidden"      onclick="location.href='/view?id=(id)'">  <img src="img/icon/view.png" alt="View"></button>
+            <!-- Icon made by https://www.flaticon.com/authors/those-icons" -->
+            <button id="sr-(id)-edit"   class="rounded-button top-right hidden"     onclick="location.href='/edit?id=(id)'">  <img src="img/icon/edit.png"   alt="Edit"></button>
+            <!-- Icon made by https://www.flaticon.com/authors/freepik -->
+            <button id="sr-(id)-del"    class="rounded-button bottom-left hidden"   onclick="//Create deletion pop-up">       <img src="img/icon/delete.png" alt="Delete"></button>
+            <!-- Icon made by https://www.flaticon.com/authors/pixel-perfect -->
+            <button id="sr-(id)-exp"    class="rounded-button bottom-right hidden"  onclick="location.href='/export?id=(id)'"><img src="img/icon/export.png" alt="Export"></button>
+        </div>
         <p class="sr-name"></p>
         <p class="sr-desc"></p>
     </div>
