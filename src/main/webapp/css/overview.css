@@ -26,7 +26,7 @@ body {
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 #header {
@@ -62,24 +62,13 @@ body {
 }
 
 #results {
-    padding: 25px;
+    padding-top: 25px;
 }
 
 #result-table {
-    width: 80%;
+    width: 95%;
     margin: auto;
-    border: 5px solid lightgrey;
-    border-radius: 25px;
-}
-
-#result-table td {
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
-#result-table td div {
-    width: min-content;
-    margin: auto;
+    text-align: center;
 }
 
 .search-result {
@@ -87,6 +76,9 @@ body {
     border: 5px solid grey;
     border-radius: 25px;
     overflow: hidden;
+    vertical-align: top;
+    display: inline-block;
+    margin: 0 25px 25px 25px;
 }
 
 .search-result img {
@@ -113,7 +105,3 @@ body {
 }
 
 /*End Tom's CSS*/
-
-.col-sm {
-    text-align: center;
-}

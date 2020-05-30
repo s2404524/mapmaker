@@ -16,7 +16,7 @@ function submitSearch() {
             table.removeClass('hidden');
             table.empty(); //Clear any previous results
 
-            for (let map of json) { //TODO fix appending stuff
+            for (let map of json) {
                 let resultDiv = $('#sr-example').clone()
 
                 let resID = `sr-${map.id}`;  //Map.id is unique, so this will be too
@@ -25,8 +25,7 @@ function submitSearch() {
                 resultDiv.find('.sr-name').text(map.name);
                 resultDiv.find('.sr-desc').text(map.description);
 
-                let td = getRow();
-                td.append(resultDiv);
+                table.append(resultDiv);
 
                 resultDiv.removeClass('hidden'); //Make the div visible
             }
@@ -35,13 +34,4 @@ function submitSearch() {
 
     xhttp.open('GET', '/rest/maps/search?a=' + encodeURIComponent(input), true);
     xhttp.send();
-}
-
-function getRow() {
-    let table = $('#result-table');
-
-    if (table.children().length === 0 || table.children(':last-child').children().length >= 3)
-        table.append('<div class="row"></div>');
-
-    return table.children(':last-child');
 }
