@@ -1,5 +1,7 @@
 package di20.team06.sql;
 
+import di20.team06.utils.Procedure;
+
 import java.net.InetSocketAddress;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -44,9 +46,8 @@ public class Database {
 
     /**
      * Terminate the database connection
-     * <p>TODO
      */
     static void shutdown() {
-
+        Procedure.execute(INSTANCE.connection::close, true);
     }
 }
