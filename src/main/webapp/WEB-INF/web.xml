@@ -19,4 +19,11 @@
         <servlet-name>javax.ws.rs.core.Application</servlet-name>
         <url-pattern>/rest/*</url-pattern>
     </servlet-mapping>
+
+    <!-- Deployment Context Listeners -->
+    <listener>
+        <listener-class>
+            di20.team06.sql.DBContextListener
+        </listener-class>
+    </listener>
 </web-app>

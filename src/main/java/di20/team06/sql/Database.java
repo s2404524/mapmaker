@@ -26,11 +26,11 @@ public class Database {
     }
 
     /**
-     * Create the database instance
-     *
+     * Connect to the database
+     * <p>
      * TODO replace hard-coded info with values from config file
      */
-    public static void init() {
+    static void init() {
         String username = "dab_dsgnprj_9", password = "G908WZerR3RH/cwD";
         try {
             INSTANCE = new Database(
@@ -40,5 +40,13 @@ public class Database {
         } catch (SQLException e) {
             throw new IllegalStateException("Couldn't connect to database!");
         }
+    }
+
+    /**
+     * Terminate the database connection
+     * <p>TODO
+     */
+    static void shutdown() {
+
     }
 }
