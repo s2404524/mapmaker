@@ -1,0 +1,14 @@
+.mazemap {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+}
+
+.mapboxgl-ctrl-bottom-left {
+    visibility: hidden;
+}
+
+.material-list {
+    width: 20%;
+    height: 100%;
+}
