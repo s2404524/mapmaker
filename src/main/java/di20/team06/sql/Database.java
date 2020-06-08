@@ -1,6 +1,7 @@
 package di20.team06.sql;
 
 import di20.team06.utils.Procedure;
+import org.intellij.lang.annotations.Language;
 
 import java.net.InetSocketAddress;
 import java.sql.*;
@@ -23,6 +24,61 @@ public class Database {
                 "jdbc:postgresql://" + address.getHostName(),
                 username, password
         );
+    }
+
+    /**
+     * Create & execute an sql query
+     * <p>
+     * This should <b>NOT</b> be used for queries handling any user input.<br>
+     * Use {@link #query(String, String[])} instead, as it uses prepared statements
+     *
+     * @param sql The query to execute
+     * @return The query's result
+     */
+    public ResultSet query(@Language("SQL") String sql) {
+        try(var statement = connection.createStatement()) {
+            if (statement.execute(sql)) {
+                return statement.getResultSet();
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
+    }
+
+    /**
+     * Create & execute a prepared statement query
+     *
+     * @param sql The SQL query to execute
+     * @param args Any arguments for the query
+     * @return The query's results
+     * @throws IllegalArgumentException if the number of arguments in {@code args} doesn't match the amount expected {@code sql}
+     */
+    public ResultSet query(@Language("SQL") String sql, String[] args) {
+        try(var statement = connection.prepareStatement(sql)) {
+
+            //Check if the amount of supplied args is correct
+            var parameterCount = statement.getParameterMetaData().getParameterCount();
+            if (parameterCount != args.length) {
+                throw new IllegalArgumentException(String.format(
+                        "Wrong amount of arguments for query! (expected: %d, got %d)",
+                        parameterCount, args.length
+                ));
+            }
+
+            //Fill the arguments into the statement
+            for (int i = 0; i < args.length; i++) {
+                statement.setString(i + 1, args[i]);
+            }
+
+            //Execute the statement & return the result
+            if (statement.execute())
+                return statement.getResultSet();
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
     /**
