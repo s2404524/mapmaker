@@ -95,5 +95,12 @@
 			<artifactId>postgresql</artifactId>
 			<version>42.2.13</version>
 		</dependency>
+
+		<!-- IntelliJ annotations -->
+		<dependency>
+			<groupId>com.intellij</groupId>
+			<artifactId>annotations</artifactId>
+			<version>12.0</version>
+		</dependency>
 	</dependencies>
 </project>
