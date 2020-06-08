@@ -3,9 +3,7 @@ package di20.team06.sql;
 import di20.team06.utils.Procedure;
 
 import java.net.InetSocketAddress;
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
+import java.sql.*;
 
 /**
  * Class responsible for communicating with the database
